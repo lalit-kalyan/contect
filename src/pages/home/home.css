@@ -1,0 +1,61 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contectList{
+    width: 70%;
+    min-height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.contectList .contectHeader{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+   background-color: rgb(184, 184, 184);
+   border: 1px solid gray;
+   border-radius: 5px;
+}
+.commen{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contectList .contectHeader .homeBtn{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(159, 158, 158);
+
+}
+
+.homeBtn button{
+    width: 60%;
+    height: 30px;
+   background-color: rgb(126, 208, 246);
+    border: 1px solid rgb(59, 59, 59);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.contectList .contectListItems{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+
+}
